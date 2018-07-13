@@ -1,0 +1,26 @@
+.menu ul {
+  margin: 0;
+  padding: 15px 0px;
+  background: green;
+}
+
+.menu li {
+  color: black;
+  display: inline-block;
+  font-family: arial;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.menu li a{
+  color: black;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: yellow;
+}
+
+.menu li a.active {
+  color: yellow;
+}
